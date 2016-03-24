@@ -1,17 +1,22 @@
-module.exports = padder;
+'use strict';
 
-function padder(str, len, ch) {
-  str = String(str);
+module.exports = {
+  padLeft: function(str, length, padCharacter) {
+    str = String(str);
+    length = length ? length : 0;
+    padCharacter = padCharacter ? padCharacter : ' ';
 
-  var i = -1;
+    var temp = '';
+    for (var i = 0; i < length; i++) {
+      temp += padCharacter;
+    }
+    str = temp.concat(str);
 
-  if (!ch && ch !== 0) ch = ' ';
+    return str;
+  },
 
-  len = len - str.length;
-
-  while (++i < len) {
-    str = ch + str;
+  padRight: function() {
   }
+};
 
-  return str;
-}
+
