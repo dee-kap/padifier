@@ -1,6 +1,6 @@
 {
   "name": "padifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deepak-kapoor/pad-left-right.git"
+    "url": "git+https://github.com/deepak-kapoor/padifier.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Deepak Kapoor",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/deepak-kapoor/pad-left-right/issues"
+    "url": "https://github.com/deepak-kapoor/padifier/issues"
   },
-  "homepage": "https://github.com/deepak-kapoor/pad-left-right#readme",
+  "homepage": "https://github.com/deepak-kapoor/padifier#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "lodash": "^4.6.1"
