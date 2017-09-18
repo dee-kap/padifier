@@ -5,7 +5,7 @@ Padding can be empty spaces or any character.
 ## How to use
 
 ```
-npm install paddifier
+npm install padifier
 ```
 
 ### Left padding
