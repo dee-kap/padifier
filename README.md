@@ -48,5 +48,5 @@ npm install && npm test
 
 ## License
 
-MIT © [Deepak Kapoor](http://www.deepakkapoor.com)
+MIT 
 
